@@ -1,0 +1,57 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Medical / patient data
+# =========================
+CFS-CTA/
+data/
+dataset/
+datasets/
+images/
+dicom/
+DICOM/
+masks/
+annotations/
+outputs/
+results/
+
+*.dcm
+*.DCM
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nrrd
+
+# =========================
+# Temporary files / logs
+# =========================
+*.log
+*.tmp
+temp/
+tmp/
